@@ -1,9 +1,11 @@
 {
-  "name": "Homepage",
   "sections": {
-    "template": {
-      "type": "template-homepage"
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "featured_collection": "all"
+      }
     }
   },
-  "order": ["template"]
+  "order": ["featured-collection"]
 }
